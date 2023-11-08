@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Kenia&display=swap');
+*{
+  font-family: 'Kenia', sans-serif;
+}
+.container {  
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 1px;
+  }
+  .Title{
+    font-size: 30px;
+    text-shadow: 2px 2px #FF0000;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    color: rgb(191, 126, 46);
+  }
+  body{
+    margin: 0;
+    padding: 0;
+    background-color:rgb(50, 67, 82);
+  }
+  main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    position: relative;
+  }
+  
+.grid-item{
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  color:rgb(56, 52, 52); ;
+  margin: 5px;
+  font-size: 120px;
+  width: 200px;
+  height: 170px;
+  background-color:rgb(255, 252, 252);
+  cursor: pointer;
+}
+footer{
+  height: 20vh;
+  display: flex;
+  align-items:center;
+  justify-content: center;
+}
+.button1{
+  color: rgb(41, 41, 41);
+  font-size: 26px;
+  width: 10vw;
+  height: 7vh;
+  
+}
+.winorlose{
+  width: 300px;
+  height: 400px;
+  color: rgb(0, 0, 0);
+  position: absolute;
+  z-index: 99 !important;
+}
